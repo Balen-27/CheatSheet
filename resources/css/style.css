@@ -1,0 +1,50 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  /* background-image: url(../images/background.jpg); */
+  background-color: gainsboro;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin: 30px auto;
+  width: 65%;
+  background-color: rgba(188, 2, 255, 0.15);
+}
+
+.subheading {
+  text-align: center;
+  font-size: 34px;
+  margin-top: 80px;
+  color: rgba(188, 2, 255, 0.887);
+}
+
+table {
+  width: 65%;
+  margin: 30px auto;
+  border: 2px solid rgb(187, 0, 255);
+  border-collapse: collapse;
+  font-size: 18px;
+}
+
+tr {
+  border: 1px solid rgb(188, 2, 255);
+}
+
+.selector {
+  border-spacing: 2px;
+  border-collapse: separate;
+}
+
+span {
+  margin: 10px 5px;
+  background-color: rgb(250, 239, 223);
+}
+
+thead {
+  font-size: 24px;
+  background-color: rgba(188, 2, 255, 0.15);
+}
