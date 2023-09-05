@@ -14,38 +14,38 @@
   </head>
   <header><h1>CSS Selectors &amp; Specifity Cheat Sheet</h1></header>
   <body>
-    <h2 class="subheading">Selectors</h2>
+    <h2 class="subheading">Basic Selectors Types</h2>
     <table>
       <thead>
         <tr>
-          <th scope="col">Selector</th>
-          <th scope="col">Name</th>
-          <th scope="col">Description</th>
+          <th scope="col" class="col-right">Selector</th>
+          <th scope="col" class="col-right">Name</th>
+          <th scope="col" class="col-right">Description</th>
         </tr>
       </thead>
-      <tbody class="table-body">
-        <tr class="rable-row">
-          <td class="selector"><span>element</span></td>
-          <td>Element selector</td>
-          <td>
+      <tbody>
+        <tr>
+          <td class="selector col-right"><span>element</span></td>
+          <td class="column col-right">Element selector</td>
+          <td class="column">
             Selects the elements from HTML document to style such as
             <em>&apos;h2&apos;</em>&comma; <em>&apos;p&apos;</em>&comma;
             <em>&apos;body&apos;</em> etc.
           </td>
         </tr>
-        <tr class="rable-row">
-          <td class="selector"><span>.class</span></td>
-          <td>Class selector</td>
-          <td>
+        <tr>
+          <td class="selector col-right"><span>.class</span></td>
+          <td class="column col-right">Class selector</td>
+          <td class="column">
             This selects a class that has been defined within the HTML document
             and the rules will apply to all descendants too. This selector can
             be used as many times as needed throughout the HTML document.
           </td>
         </tr>
-        <tr class="rable-row">
-          <td class="selector"><span>#ID</span></td>
-          <td>ID selector</td>
-          <td>
+        <tr>
+          <td class="selector col-right"><span>#ID</span></td>
+          <td class="column col-right">ID selector</td>
+          <td class="column">
             This will select the ID that has been defined within the HTML
             document and apply the rules to the element with that specific ID.
             An ID can only be used once in a HTML document unlike a class.
@@ -56,26 +56,28 @@
     <h2 class="subheading">Specifity</h2>
     <table>
       <thead>
-        <tr class="table-header">
-          <th scope="col">Selector</th>
-          <th scope="col">Specifity</th>
+        <tr>
+          <th scope="col" class="col-right">Selector</th>
+          <th scope="col" class="col-right">Specifity</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td class="selector"><span>#ID</span></td>
-          <td>The most specific selector and over-rides all others</td>
+          <td class="selector col-right"><span>#ID</span></td>
+          <td class="column">
+            The most specific selector and over-rides all others
+          </td>
         </tr>
         <tr>
-          <td class="selector"><span>.class</span></td>
-          <td>
+          <td class="selector col-right"><span>.class</span></td>
+          <td class="column">
             Less specific than the ID selector but over-rides basic element
             selectors.
           </td>
         </tr>
         <tr>
-          <td class="selector"><span>element</span></td>
-          <td>
+          <td class="selector col-right"><span>element</span></td>
+          <td class="column">
             The least specific and selector. Is only applied if the previous
             selectors don't have rules that over ride the rules within the
             elemnt selector.
@@ -83,6 +85,6 @@
         </tr>
       </tbody>
     </table>
-    <h2>TO BE CONTINUED...</h2>
+    <h2 class="future">TO BE CONTINUED...</h2>
   </body>
 </html>

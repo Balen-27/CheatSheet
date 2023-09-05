@@ -12,14 +12,15 @@ h1 {
   text-align: center;
   margin: 30px auto;
   width: 65%;
-  background-color: rgba(188, 2, 255, 0.15);
+  /* background-color: rgba(188, 2, 255, 0.05); */
+  background: radial-gradient(circle, rgba(188, 2, 255, 0.1), gainsboro);
 }
 
 .subheading {
   text-align: center;
   font-size: 34px;
   margin-top: 80px;
-  color: rgba(188, 2, 255, 0.887);
+  color: rgba(188, 2, 255, 0.67);
 }
 
 table {
@@ -31,7 +32,7 @@ table {
 }
 
 tr {
-  border: 1px solid rgb(188, 2, 255);
+  border: 2px solid rgb(187, 0, 255);
 }
 
 .selector {
@@ -46,5 +47,19 @@ span {
 
 thead {
   font-size: 24px;
-  background-color: rgba(188, 2, 255, 0.15);
+  background-color: rgba(188, 2, 255, 0.1);
+}
+
+.future {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.col-right {
+  border-right: 2px solid rgb(187, 0, 255);
+}
+
+th,
+td {
+  padding: 10px;
 }
